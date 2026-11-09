@@ -21,4 +21,12 @@
      - Jalankan file MainApp.java atau klik tombol Run Project (F6).
     
 ## Tampilan Aplikasi
-![Tampilan TokoApp](Tampilan%20Aplikasi.jpg.jpeg)
+
+### 1. Daftar Produk
+![Daftar Produk TokoApp](Tampilan%20Aplikasi.jpg.jpeg)
+
+### 2. Pencarian Produk
+![Pencarian Produk TokoApp](Tampilan%20Cari%20Produk.jpg.jpeg)
+
+### 3. Detail Produk
+![Detail Produk TokoApp](Tampilan%20Detail%20Produk.jpg.jpeg)
