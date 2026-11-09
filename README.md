@@ -29,4 +29,4 @@
 ![Pencarian Produk TokoApp](Tampilan%20Cari%20Produk.jpg.jpeg)
 
 ### 3. Detail Produk
-![Detail Produk TokoApp](Tampilan%20Detail%20Produk.jpg.jpeg)
+![Detail Produk TokoApp](Tampilan%20Lihat%20Detail.jpg.jpeg)
