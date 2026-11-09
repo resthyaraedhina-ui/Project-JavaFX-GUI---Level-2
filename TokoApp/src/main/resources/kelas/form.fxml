@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kelas.controller.FormController"
+            stylesheets="@styles/app.css">
+    <top>
+        <HBox spacing="16" styleClass="header">
+            <Label text="Tambah Produk" styleClass="title"/>
+            <Button text="Lihat Daftar" onAction="#bukaDaftar"/>
+        </HBox>
+    </top>
+    <center>
+        <ScrollPane fitToWidth="true">
+            <content>
+                <VBox spacing="16" styleClass="page">
+                    <VBox spacing="12" styleClass="card">
+                        <Label text="Data produk baru" styleClass="subtitle"/>
+                        <Label text="Nama produk"/>
+                        <TextField fx:id="namaField" promptText="Contoh: Cheesecake"/>
+                        
+                        <Label text="Kategori"/>
+                        <ComboBox fx:id="kategoriBox" maxWidth="Infinity"/>
+                        
+                        <Label text="Harga (Rp)"/>
+                        <TextField fx:id="hargaField" promptText="Contoh: 27000"/>
+                        
+                        <!-- === BAGIAN TAMBAHAN UNTUK FOTO PRODUK === -->
+                        <Label text="Foto Produk"/>
+                        <HBox spacing="10" alignment="CENTER_LEFT">
+                            <Button text="Pilih Foto" onAction="#pilihFoto" styleClass="button"/>
+                            <Label fx:id="namaFileLabel" text="Belum ada foto dipilih" styleClass="muted"/>
+                        </HBox>
+                        <ImageView fx:id="fotoPreview" fitWidth="100" fitHeight="100" preserveRatio="true"/>
+                        <!-- ========================================= -->
+                        
+                        <Label text="Kode produk dibuat otomatis. Periksa kembali data sebelum menyimpan."
+                               wrapText="true" styleClass="muted"/>
+                        <Button text="Simpan Produk" onAction="#simpan"
+                                styleClass="button-primary" maxWidth="Infinity"/>
+                        <Label fx:id="pesanLabel" wrapText="true" styleClass="error"/>
+                    </VBox>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </center>
+</BorderPane>

@@ -1,0 +1,105 @@
+
+.root {
+    -fx-base: #fff0f5; 
+    -fx-background-color: #fff5f8;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.header {
+    -fx-background-color: #ffb6c1; 
+    -fx-padding: 16px;
+    -fx-border-color: #ff99a8;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8b3a62; 
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a64d79;
+}
+
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12px;
+    -fx-padding: 16px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 182, 193, 0.4), 10, 0, 0, 4);
+}
+
+.button-primary {
+    -fx-background-color: #ff8da1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: #ff7088; 
+}
+
+.button {
+    -fx-background-color: #ffe4e1; 
+    -fx-text-fill: #7d4e5b;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #ffccd5;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: #fff9fa;
+    -fx-border-color: #ffb6c1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #ff69b4; 
+}
+
+.error {
+    -fx-text-fill: #d87093; 
+    -fx-font-style: italic;
+}
+
+.muted {
+    -fx-text-fill: #b8860b;
+    -fx-opacity: 0.8;
+}
+
+.button-primary {
+    -fx-background-color: #ff8da1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12px;
+    -fx-cursor: hand;
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+}
+.button-primary:hover {
+    -fx-background-color: #ff7088;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #ffb6c1;
+    -fx-border-radius: 8px;
+}
+.table-view .column-header {
+    -fx-background-color: #ffb6c1;
+    -fx-text-fill: #8b3a62;
+    -fx-font-weight: bold;
+}
