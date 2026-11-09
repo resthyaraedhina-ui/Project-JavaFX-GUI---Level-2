@@ -19,3 +19,6 @@
   3. Build & Run
      - Klik kanan pada project TokoApp > Clean and Build.
      - Jalankan file MainApp.java atau klik tombol Run Project (F6).
+    
+## Tampilan Aplikasi
+![Tampilan TokoApp](Tampilan%20Aplikasi.jpg.jpeg)
